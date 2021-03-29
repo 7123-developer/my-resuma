@@ -1,14 +1,53 @@
 import React, { Component } from 'react';
 
 class Header extends Component {
+   state= {
+      socialData: [
+         {
+         name: "facebook", 
+         url: "http://facebook.com/tim.baker.906", 
+         className: "fa fa-facebook"
+         },
+         {
+            name: "twitter", 
+            url: "http://twitter.com", 
+            className: "fa fa-twitter"
+         },
+         {
+            name: "google-plus",
+            url: "http://googleplus.com/tbakerx",
+            className: "fa fa-google-plus"
+         },
+         {
+            name: "linkedin", 
+            url: "https://www.linkedin.com/in/tim-baker-8420009a/", 
+            className: "fa fa-linkedin"
+         },
+         {
+            name: "instagram", 
+            url: "http://instagram.com/tbaker_x", 
+            className: "fa fa-instagram"
+         },
+         {
+            name: "github", 
+            url: "https://github.com/7123-developer", 
+            className: "fa fa-github"
+         },
+         {
+            name: "skype", 
+            url: "http://skype.com", 
+            className: "fa fa-skype"
+         }
+      ]
+   }
   render() {
-
+   console.log(this.props.data)
     if(this.props.data){
       var name = this.props.data.name;
       var occupation= this.props.data.occupation;
       var description= this.props.data.description;
       var city= this.props.data.address.city;
-      var networks= this.props.data.social.map(function(network){
+      var networks= this.state.socialData.map(function(network){
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
       })
     }
