@@ -9,6 +9,7 @@ import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import Testimonials from './Components/Testimonials';
 import Portfolio from './Components/Portfolio';
+import { api } from './common/common';
 
 class App extends Component {
 
@@ -30,7 +31,7 @@ class App extends Component {
       dataType:'json',
       cache: false,
       success: function(data){
-        console.log(data)
+        console.log(data,"hello")
         this.setState({resumeData: data});
       }.bind(this),
       error: function(xhr, status, err){
@@ -41,7 +42,8 @@ class App extends Component {
   }
 
   componentDidMount(){
-    this.getResumeData();
+    // this.getResumeData();
+    this.setState({resumeData: api});
   }
 
   render() {
@@ -51,8 +53,8 @@ class App extends Component {
         <About data={this.state.resumeData.main}/>
         <Resume data={this.state.resumeData.resume}/>
         <Portfolio data={this.state.resumeData.portfolio}/>
-        <Testimonials data={this.state.resumeData.testimonials}/>
-        <Contact data={this.state.resumeData.main}/>
+        {/* <Testimonials data={this.state.resumeData.testimonials}/> */}
+        {/* <Contact data={this.state.resumeData.main}/> */}
         <Footer data={this.state.resumeData.main}/>
       </div>
     );
