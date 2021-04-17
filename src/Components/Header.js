@@ -96,7 +96,7 @@ class Header extends Component {
 
         <div className="row banner">
           <div className="banner-text">
-            <h1>Nikhil Tiwari.</h1>
+            <h1>Nikhil Tiwari</h1>
             <h3>
               {" "}
               I always take advantage of the opportunities that come my way and

@@ -10,6 +10,7 @@ import Resume from './Components/Resume';
 // import Testimonials from './Components/Testimonials';
 import Portfolio from './Components/Portfolio';
 import { api } from './common/common';
+import FontAwesome from 'react-fontawesome';
 
 class App extends Component {
 
@@ -57,6 +58,9 @@ class App extends Component {
         {/* <Testimonials data={this.state.resumeData.testimonials}/> */}
         {/* <Contact data={this.state.resumeData.main}/> */}
         <Footer data={this.state.resumeData.main}/>
+        <div onClick={()=> window.open('https://drive.google.com/file/d/1LaaZKpL0zs1X5UGlmr-PoqsUojY02ThW/view?usp=drivesdk')} className="download-icon">
+          <FontAwesome name="download" />
+        </div>
       </div>
     );
   }

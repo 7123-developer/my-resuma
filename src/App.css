@@ -1,0 +1,18 @@
+.download-icon {
+  position: fixed;
+  bottom: 10px;
+  background: #326b80;
+  right: 7px;
+  width: 71px;
+  height: 71px;
+  border-radius: 42px;
+  display: flex;
+  justify-content: center;
+}
+.download-icon span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+  color: #fff;
+}

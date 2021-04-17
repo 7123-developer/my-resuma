@@ -13,7 +13,7 @@ class About extends Component {
       var zip = "146001";
       var phone= "+91 8437904258, +91 7009426785";
       var email = "nikhiltiwari7123@gmail.com";
-      var resumeDownload = 'https://drive.google.com/file/d/1LaaZKpL0zs1X5UGlmr-PoqsUojY02ThW/view?usp=drivesdk';
+      // var resumeDownload = 'https://drive.google.com/file/d/1LaaZKpL0zs1X5UGlmr-PoqsUojY02ThW/view?usp=drivesdk';
     }
 
     return (
@@ -41,9 +41,9 @@ class About extends Component {
                <div className="columns download">
                   <p>
                      {/* <a href={"/about"} onClick={()=> window.open(resumeDownload)} className="button"> */}
-                        <div onClick={()=> window.open(resumeDownload)} className="button">
+                        {/* <div onClick={()=> window.open(resumeDownload)} className="button">
                         <i className="fa fa-download"></i>Download Resume
-                        </div>
+                        </div> */}
                         {/* </a> */}
                   </p>
                </div>
