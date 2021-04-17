@@ -7,7 +7,7 @@ export const api = {
 
     },
     name: "Nikhil Tiwari",
-    bio: "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever",
+    bio: "Success is about dedication. You may not be where you want to be or do what you want to do when you're on the journey. But you've got to be willing to have vision and foresight that leads you to an incredible end. ",
     contactmessage: "Here is where you should write your message to readers to have them get in contact with you.",
     description: "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
     email: "nikhiltiwari7123@gmail.com",
@@ -18,27 +18,27 @@ export const api = {
     social: [
       {
         name: "facebook", 
-        url: "http://facebook.com/tim.baker.906", 
+        url: "https://www.facebook.com/nikhil.tiwari.9803150", 
         className: "fa fa-facebook"
         },
         {
            name: "twitter", 
-           url: "http://twitter.com", 
+           url: "https://twitter.com/NikhilT94103233?s=09", 
            className: "fa fa-twitter"
         },
-        {
-           name: "google-plus",
-           url: "http://googleplus.com/tbakerx",
-           className: "fa fa-google-plus"
-        },
+        // {
+        //    name: "google-plus",
+        //    url: "http://googleplus.com/tbakerx",
+        //    className: "fa fa-google-plus"
+        // },
         {
            name: "linkedin", 
-           url: "https://www.linkedin.com/in/tim-baker-8420009a/", 
+           url: "https://www.linkedin.com/in/nikhil-tiwari-56422718b", 
            className: "fa fa-linkedin"
         },
         {
            name: "instagram", 
-           url: "http://instagram.com/tbaker_x", 
+           url: "https://www.instagram.com/invites/contact/?i=1m3llzshfi8i7&utm_content=1kl3lnc", 
            className: "fa fa-instagram"
         },
         {
@@ -48,7 +48,7 @@ export const api = {
         },
         {
            name: "skype", 
-           url: "http://skype.com", 
+           url: "https://join.skype.com/invite/YOUIdjRkLt7U", 
            className: "fa fa-skype"
         }
     ],
@@ -74,13 +74,13 @@ export const api = {
       //   school: "School #1 Maybe College?"
       // }
     ],
-    skillmessage: "Here you can create a short write-up of your skills to show off to employers",
+    skillmessage: "I enjoy working in fast-paced environments and can adapt to new processes by quickly learning new skills.",
     skills: [
       {name: "Git", level: "60%"},
       {name: "React Native", level: "65%"},
       {name: "React Js", level: "70%"},
       {name: "CSS", level: "90%"},
-      {name: "HTML5", level: "80%"},
+      {name: "HTML5", level: "90%"},
       {name: "Shopify", level: "50%"},
       {name: "Node Js", level: "40%"}
     ],
