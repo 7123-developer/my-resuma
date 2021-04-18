@@ -100,7 +100,7 @@ class Header extends Component {
             <h3>
               {" "}
               I always take advantage of the opportunities that come my way and
-              I work really, really hard. [So, never give upon things you have
+              I work really, really hard. So, never give upon things you have
               always dreamed of. Your dreams will become reality by your
               dedication and hard work.
             </h3>

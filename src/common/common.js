@@ -10,7 +10,8 @@ export const api = {
     },
     name: "Nikhil Tiwari",
     bio:
-      "Success is about dedication. You may not be where you want to be or do what you want to do when you're on the journey. But you've got to be willing to have vision and foresight that leads you to an incredible end. ",
+      "I am fond of challenging myself in order to grow and further impronve my techniical skill. Allways in the search of learning",
+      // "Success is about dedication. You may not be where you want to be or do what you want to do when you're on the journey. But you've got to be willing to have vision and foresight that leads you to an incredible end. ",
     contactmessage:
       "Here is where you should write your message to readers to have them get in contact with you.",
     description:
